@@ -1,0 +1,16 @@
+<universes>
+  <universe name="acceleration">
+    <linguistic_value name="positive">
+      <point name="a" x="0" y="0"></point>
+      <point name="b" x="0.8" y="1"></point>
+      <point name="c" x="1.8" y="1"></point>
+      <point name="d" x="2.6" y="0"></point>
+    </linguistic_value>
+    <linguistic_value name="negative">
+      <point name="a" x="-18" y="0"></point>
+      <point name="b" x="-13" y="1"></point>
+      <point name="c" x="-5" y="1"></point>
+      <point name="d" x="0" y="0"></point>
+    </linguistic_value>
+  </universe>
+</universes>

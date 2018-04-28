@@ -1,0 +1,134 @@
+<universes>
+  <universe name="velocity_A">
+    <linguistic_value name="slow">
+      <point name="a" x="0" y="0"></point>
+      <point name="b" x="5" y="1"></point>
+      <point name="c" x="10" y="0"></point>
+    </linguistic_value>
+    <linguistic_value name="medium">
+      <point name="a" x="5" y="0"></point>
+      <point name="b" x="15" y="1"></point>
+      <point name="c" x="21" y="0"></point>
+    </linguistic_value>
+    <linguistic_value name="fast">
+      <point name="a" x="15" y="0"></point>
+      <point name="b" x="25" y="1"></point>
+      <point name="c" x="28" y="0"></point>
+    </linguistic_value>
+    <linguistic_value name="too_fast">
+      <point name="a" x="25" y="0"></point>
+      <point name="b" x="25.5" y="1"></point>
+      <point name="c" x="27" y="0"></point>
+    </linguistic_value>
+  </universe>
+  <universe name="velocity_B">
+    <linguistic_value name="slow">
+      <point name="a" x="0" y="0"></point>
+      <point name="b" x="5" y="1"></point>
+      <point name="c" x="10" y="0"></point>
+    </linguistic_value>
+    <linguistic_value name="medium">
+      <point name="a" x="5" y="0"></point>
+      <point name="b" x="15" y="1"></point>
+      <point name="c" x="21" y="0"></point>
+    </linguistic_value>
+    <linguistic_value name="fast">
+      <point name="a" x="15" y="0"></point>
+      <point name="b" x="23" y="1"></point>
+      <point name="c" x="25" y="0"></point>
+    </linguistic_value>
+    <linguistic_value name="too_fast">
+      <point name="a" x="23" y="0"></point>
+      <point name="b" x="25" y="1"></point>
+      <point name="c" x="27" y="0"></point>
+    </linguistic_value>
+  </universe>
+  <universe name="velocity_C">
+    <linguistic_value name="slow">
+      <point name="a" x="0" y="0"></point>
+      <point name="b" x="5" y="1"></point>
+      <point name="c" x="10" y="0"></point>
+    </linguistic_value>
+    <linguistic_value name="medium">
+      <point name="a" x="5" y="0"></point>
+      <point name="b" x="15" y="1"></point>
+      <point name="c" x="21" y="0"></point>
+    </linguistic_value>
+    <linguistic_value name="fast">
+      <point name="a" x="15" y="0"></point>
+      <point name="b" x="23" y="1"></point>
+      <point name="c" x="25" y="0"></point>
+    </linguistic_value>
+    <linguistic_value name="too_fast">
+      <point name="a" x="23" y="0"></point>
+      <point name="b" x="25" y="1"></point>
+      <point name="c" x="27" y="0"></point>
+    </linguistic_value>
+  </universe>
+  <universe name="distance_AB">
+    <linguistic_value name="behind">
+      <point name="a" x="-2000" y="0"></point>
+      <point name="b" x="-10" y="1"></point>
+      <point name="c" x="0" y="0"></point>
+    </linguistic_value>
+    <linguistic_value name="too_close">
+      <point name="a" x="-10" y="0"></point>
+      <point name="b" x="27" y="1"></point>
+      <point name="c" x="50" y="0"></point>
+    </linguistic_value>
+    <linguistic_value name="close">
+      <point name="a" x="27" y="0"></point>
+      <point name="b" x="75" y="1"></point>
+      <point name="c" x="100" y="0"></point>
+    </linguistic_value>
+    <linguistic_value name="far">
+      <point name="a" x="75" y="0"></point>
+      <point name="b" x="400" y="1"></point>
+      <point name="c" x="2000" y="0"></point>
+    </linguistic_value>
+  </universe>
+  <universe name="distance_AC">
+    <linguistic_value name="behind">
+      <point name="a" x="-2000" y="0"></point>
+      <point name="b" x="-10" y="1"></point>
+      <point name="c" x="0" y="0"></point>
+    </linguistic_value>
+    <linguistic_value name="too_close">
+      <point name="a" x="-10" y="0"></point>
+      <point name="b" x="27" y="1"></point>
+      <point name="c" x="50" y="0"></point>
+    </linguistic_value>
+    <linguistic_value name="close">
+      <point name="a" x="27" y="0"></point>
+      <point name="b" x="75" y="1"></point>
+      <point name="c" x="100" y="0"></point>
+    </linguistic_value>
+    <linguistic_value name="far">
+      <point name="a" x="75" y="0"></point>
+      <point name="b" x="400" y="1"></point>
+      <point name="c" x="2000" y="0"></point>
+    </linguistic_value>
+  </universe>
+  <universe name="distance_AtoEnd">
+    <linguistic_value name="behind">
+      <point name="a" x="-2000" y="0"></point>
+      <point name="b" x="-10" y="1"></point>
+      <point name="c" x="0" y="0"></point>
+    </linguistic_value>
+    <linguistic_value name="too_close">
+      <point name="a" x="-10" y="0"></point>
+      <point name="b" x="27" y="1"></point>
+      <point name="c" x="50" y="0"></point>
+    </linguistic_value>
+    <linguistic_value name="close">
+      <point name="a" x="27" y="0"></point>
+      <point name="b" x="75" y="1"></point>
+      <point name="c" x="100" y="0"></point>
+    </linguistic_value>
+    <linguistic_value name="far">
+      <point name="a" x="75" y="0"></point>
+      <point name="b" x="400" y="1"></point>
+      <point name="c" x="2000" y="0"></point>
+    </linguistic_value>
+  </universe>
+</universes>

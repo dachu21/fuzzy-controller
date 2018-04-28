@@ -1,0 +1,41 @@
+<rules>
+  <rule>
+    <antecedent name="distance_AB" value="too_close"></antecedent>
+    <antecedent name="distance_AC" value="far"></antecedent>
+    <consequent name="acceleration" value="positive"></consequent>
+  </rule>
+  <rule>
+    <antecedent name="distance_AB" value="close"></antecedent>
+    <antecedent name="distance_AC" value="far"></antecedent>
+    <consequent name="acceleration" value="positive"></consequent>
+  </rule>
+  <rule>
+    <antecedent name="distance_AB" value="close"></antecedent>
+    <antecedent name="distance_AC" value="behind"></antecedent>
+    <consequent name="acceleration" value="positive"></consequent>
+  </rule>
+  <rule>
+    <antecedent name="distance_AB" value="too_close"></antecedent>
+    <antecedent name="distance_AC" value="behind"></antecedent>
+    <consequent name="acceleration" value="positive"></consequent>
+  </rule>
+  <rule>
+    <antecedent name="distance_AB" value="behind"></antecedent>
+    <consequent name="acceleration" value="positive"></consequent>
+  </rule>
+  <rule>
+    <antecedent name="distance_AB" value="too_close"></antecedent>
+    <antecedent name="distance_AC" value="close"></antecedent>
+    <antecedent name="velocity_A" value="fast"></antecedent>
+    <consequent name="acceleration" value="negative"></consequent>
+  </rule>
+  <rule>
+    <antecedent name="distance_AB" value="far"></antecedent>
+    <consequent name="acceleration" value="positive"></consequent>
+  </rule>
+  <rule>
+    <antecedent name="velocity_A" value="too_fast"></antecedent>
+    <consequent name="acceleration" value="negative"></consequent>
+  </rule>
+
+</rules>
